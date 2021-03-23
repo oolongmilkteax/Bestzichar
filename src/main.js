@@ -6,7 +6,6 @@ import Nav from './components/Nav.vue'
 import VueRouter from 'vue-router'
 import Routes from './routes.js'
 import BarChart from './barchart.js'
-import Axios from './axios.js'
 
 Vue.use(VueRouter)
 Vue.config.productionTip = false
@@ -14,7 +13,6 @@ Vue.component('qty', QuantityCounter)
 Vue.component('basket', Basket)
 Vue.component('navbar', Nav)
 Vue.component('barchart', BarChart)
-Vue.component('axios', Axios)
 
 const myRouter = new VueRouter({
   routes: Routes,

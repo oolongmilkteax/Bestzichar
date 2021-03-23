@@ -11,6 +11,8 @@
         </li>
     </ul>
     <basket v-bind:itemsSelected="itemsSelected"></basket>
+
+    <footer></footer>
   </div>
 </template>
 
@@ -68,7 +70,7 @@ h2{
     float: left;
     width: 71%;
     padding: 5px;
-    box-sizing: border-box;
+    
 }
 ul{
     display: flex;
@@ -83,6 +85,7 @@ li{
     padding: 5px;
     border: 1px solid #222;
     margin: 10px;
+    box-sizing: border-box;
 }
 img{
   width:100px;

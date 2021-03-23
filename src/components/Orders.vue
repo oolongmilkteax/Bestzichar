@@ -12,7 +12,7 @@
                         Sambal Kang Kung: {{order[1].sambalKangKung}}
                     </p>
                     <buttons>
-                        <button v-bind:id="order[0]" v-on:click="deleteItem($event)">Delete</button>
+                        <button v-bind:id="order[0]" v-on:click="deleteItem($event)">Delete</button> <br>
                         <button v-bind:id="order[0]" v-on:click="route($event)">Modify</button>
                     </buttons>
                 </ul>
@@ -71,11 +71,10 @@ li {
   list-style-type: none;
   flex-grow: 1;
   flex-basis: 300px;
-  text-align: center;
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #222;
   margin: 10px;
-  padding-left: 100px;
+  padding-left: 30px;
 }
 button {
   width: 65px;
@@ -85,7 +84,8 @@ button {
   border-width: 1px;
 }
 buttons {
-    margin-left: 130px;
+    margin-left: 70px;
     padding: 15px;
+    line-height: 40px;
 }
 </style>

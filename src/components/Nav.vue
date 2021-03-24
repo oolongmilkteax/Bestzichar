@@ -26,5 +26,15 @@ li{
   margin: 7px;
   background: pink;
   font-size: 20px;
+  border: 1px solid #222;
+  border-radius: 7px;
+  height: 25px;
+  padding:10px;
+}
+
+a:hover {
+  font-size: 25px;
+  font-weight: bold;
+  color: blue;
 }
 </style>
